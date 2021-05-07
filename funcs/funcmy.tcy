@@ -1,0 +1,6 @@
+lef name = Alex;
+lef age = 12;
+cnv str age;
+wrts Hello name ! You are age !;
+wrt -sys -root;
+wrt It be test program on my language;

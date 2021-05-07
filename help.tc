@@ -1,0 +1,58 @@
+#tc/help
+[sudo]
+base = sudo
+1 = If entry it command in Terminal, then you became super root user
+[clr]
+base = clr [action] [color] [effect] [text]
+1 = It command return colored text. COLORS:  r -- red; g -- green; b -- blue; bl -- black; w -- white; y -- yellow; v -- violet; EFFECTS: b -- thunbnail; i -- italic; ACTIONS: p -- print, r -- return
+[ex]
+base = ex OR .
+1 = It command just exit from Terminal
+[lef]
+base = lef [name] = [value]
+1 = It command create a you vars.
+[usr]
+base = usr -i [index] [action] [what]
+1 = It command do actions with users Terminal. All datas saved in file "usr.tc". First in [] write it's index, second "type", three "name", four "password". ACTIONS: list (return what (name, type, password))
+[cls]
+base = cls
+1 = It command just clear a screen.
+[cut]
+base = cut [int index 1] [int index 2] [what] [fraze]
+1 = It command cut fraze with index 1 to index 2.
+[part]
+base = part [what] [spliter] [int part] [fraze]
+1 = It comamnd split fraze on three part -- before spliter(0), self spliter(1), after spliter(2). Spliter may be other.
+[man]
+base = man [comamnd]
+1 = It command print information about command. Example as write comamnd, small information and advanced arguments.
+[xc]
+base = xc [func]
+1 = It command start file in folder funcs/.
+[tp]
+base = tp [what]
+1 = It command print type what
+[wrt]
+base = wrt [what]
+1 = It command print text or values vars, so supported systemvars. SYSTEM_VARS: -sys -ftps (types for files), -sys -tps(types), -sys -utps(types for users), -sys -chrs(all chrs), -sys -kw(all keywords), -sys -errs(all errors), -sys -n (name system), -sys -v(system version), -sys -date(system date), -sys -fs(root must be True! File system), -sys -cms(all commands), -sys -root(value root), -sys -vrs(all user vars)
+[wrts]
+base = wrts [what]
+1 = It command as wrt, but print a lot vars and text! System_vars no supported, only in wrt.
+[cut]
+base = cut [int index 1] [int index 2] [what]
+1 = It command print a cut text.
+[cnv]
+base = cnv [type] [what]
+1 = It command convert what at type
+[math]
+base = math [example]
+1 = It command count example
+[math.fact]
+base = math.fact [int num]
+1 = It command print factorial num.
+[mnt]
+base = mnt [from] [parametr] [new value]
+1 = It command change value vars/list/dict at new. FROM: -sys. All parametrs see in command wrt (man wrt)
+[file]
+base = file [name file] [action] [what]
+1 = It command execute actions with files. ACTIONS: -rd* (print all text), -rdl (print line), -rdls (print lines), -n (print name file), -e (print ex file)

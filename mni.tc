@@ -1,0 +1,7 @@
+#tc/main
+[sh]
+nm = TC
+ver = 0.1
+date = 06.05.21
+fs = shrt
+cms = lef, sudo, usr, cut, part, xc, math, man, manual, cls, ex, lgc, wrt, clr, file
