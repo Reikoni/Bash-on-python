@@ -11,24 +11,18 @@ base = ex OR .
 [lef]
 base = lef [name] = [value]
 1 = It command create a you vars.
-[usr]
-base = usr -i [index] [action] [what]
-1 = It command do actions with users Terminal. All datas saved in file "usr.tc". First in [] write it's index, second "type", three "name", four "password". ACTIONS: list (return what (name, type, password))
 [cls]
 base = cls
 1 = It command just clear a screen.
 [cut]
 base = cut [int index 1] [int index 2] [what] [fraze]
 1 = It command cut fraze with index 1 to index 2.
-[part]
-base = part [what] [spliter] [int part] [fraze]
-1 = It comamnd split fraze on three part -- before spliter(0), self spliter(1), after spliter(2). Spliter may be other.
 [man]
 base = man [comamnd]
 1 = It command print information about command. Example as write comamnd, small information and advanced arguments.
 [xc]
-base = xc [func]
-1 = It command start file in folder funcs/.
+base = xc [what] [name] [action]
+1 = It command start file in folder /funcs/. WHAT: -void. ACTION: st
 [tp]
 base = tp [what]
 1 = It command print type what
